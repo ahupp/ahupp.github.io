@@ -1,0 +1,103 @@
+body {
+  color: #333;  
+}
+
+p {
+  line-height: 140%;
+}
+
+a {
+ color: grey;
+}
+
+
+/* the main heading, e.g. "Adam Hupp" */
+
+div.top h1 {
+  margin-bottom: -.2em;
+  padding-left: 2em;
+  float: left;
+}
+
+
+/* inline menu */
+
+ul.menu {   
+  padding: 0;
+  margin-bottom: 0;
+}
+
+ul.menu li {
+  display: inline;  
+  border-left: dotted 1px #C0C0C0;
+  padding: 0 .2em;
+}
+
+ul.menu li:first-child {
+  border-left: none
+}
+
+
+
+.mainimage {
+  float: right;
+  margin-right: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mainimage img {
+  width: 249;
+  height: 240;
+}
+
+
+.section {
+  clear:left; 
+  margin: 0 0 0 8em; /* lcolum */
+  padding: 20px 0;
+  width: 50%;
+}
+
+
+.section h2 {
+  float: left; 
+  width: 7em;
+  font-weight: bold;
+  font-size: inherit;
+  margin: 0 0 0 -8em; /* lcolumn */
+  text-align: right;
+}
+
+.section p {
+/* Make sure h1 and first line are lined up 
+   Alternative is to drop h1 by 1em but that forces 
+   everything else to act like a para
+*/
+  margin-top: 0;
+}
+
+hr {
+  margin-top:0;
+  height:1px;
+  clear: both;
+  border: none;
+  border-top: solid 1px lightgray;
+}
+
+.section ul { 
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding-left: 0;
+}
+
+.section ul li { 
+  padding-bottom: 0.4em;
+}
+
+
+.section ul li:before {
+  content: "\00BB  "; /*  This would be &raquo but entities don't work? */
+}
+
