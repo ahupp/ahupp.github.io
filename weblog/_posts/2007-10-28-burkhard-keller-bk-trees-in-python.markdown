@@ -30,4 +30,4 @@ You can see the BK tree is much faster for small distances.  As the query distan
 
 Of course, there's no free lunch.  Creating this tree of 57,024 words takes 94s on my system.
 
-The source for this module [is available here](http://hupp.org/adam/hg/bktree/file/tip/bktree.py).  Enjoy!
+The source for this module [is available here](https://github.com/ahupp/bktree/blob/master/bktree.py).  Enjoy!

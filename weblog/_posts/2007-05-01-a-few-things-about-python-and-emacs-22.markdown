@@ -27,8 +27,6 @@ python major mode, python.el.  Some observations:
           (define-key python-mode-map "\C-m" 'newline-and-indent)))
      </code></pre>
 
-    *Thanks to [johan](http://hupp.org/adam/weblog/2007/05/01/a-few-things-about-python-and-emacs-22/#comment-5) for the suggestion to do this in a hook.*
-
  1. Turn on
  [transient-mark-mode](http://www.emacsblog.org/2007/02/20/newbie-tip-transient-mark-mode/).
  This is necessary for certain features like region (un)comment region

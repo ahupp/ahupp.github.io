@@ -12,9 +12,9 @@ the visual display of statistical information.  Last year I had the
 opportunity to attend one of his
 [courses](http://www.edwardtufte.com/tufte/courses) and was inspired
 to apply his ideas to my favorite plotting library,
-[matplotlib](http://matplotlib.sourceforge.net/).
+[matplotlib](http://matplotlib.org).
 
-The result is [etfames](http://hupp.org/adam/svn/public/etframes), a
+The result is [etfames](http://github.com/ahupp/etframes), a
 python module that operates on matplotlib plots.  So far I've
 implemented two graph types described in the [The Visual Display of
 Quantitative Information
@@ -24,7 +24,10 @@ the dash-dot-plot and range frames.
 Dash Dot Plot
 -------------
 
-A dash-dot-plot places a tick mark on the axis for each value in a scatter plot.  When there are many values in the graph this can be a more effective way to understand their distribution than looking at the raw data.  For example:
+A dash-dot-plot places a tick mark on the axis for each value in a
+scatter plot.  When there are many values in the graph this can be a
+more effective way to understand their distribution than looking at
+the raw data.  For example:
 
 <a href="/adam/images/ddp.png">
 <img alt="Example of a dash-dot-plot" src="/adam/images/ddp-small.png"/>
@@ -36,13 +39,17 @@ for a working example.
 Range Frames
 -------------
 
-The range frame re-uses the frame (edge) of a graph to display useful information.  Instead of drawing a full frame around the graph the frame is only drawn from the minimum to the maximum value along that axis.  For example:
+The range frame re-uses the frame (edge) of a graph to display useful
+information.  Instead of drawing a full frame around the graph the
+frame is only drawn from the minimum to the maximum value along that
+axis.  For example:
 
 <a href="/adam/images/range.png">
 <img alt="Example of a range frame" src="/adam/images/range-small.png"/>
 </a>
 
-See [demo_range.py](https://github.com/ahupp/etframes/blob/master/demo_range.py) for a working example.
+See [demo_range.py](https://github.com/ahupp/etframes/blob/master/demo_range.py)
+for a working example.
 
 Other Work
 ------------
