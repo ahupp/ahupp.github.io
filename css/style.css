@@ -38,7 +38,7 @@ ul.inlinemenu li:first-child {
 
 img.mainimage {
   float: right;
-  margin: 80px;
+  margin: 20px 80px 80px 80px;
 }
 
 .section {
@@ -69,11 +69,6 @@ img.mainimage {
 
 .section ul li { 
   padding-bottom: 0.4em;
-}
-
-
-.section ul li:before {
-  content: "\00BB  "; /*  This would be &raquo but entities don't work? */
 }
 
 .postdate {
