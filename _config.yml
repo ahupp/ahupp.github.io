@@ -1,4 +1,3 @@
 url: /adam
 destination: /home/adam/web/html/adam
-pygments: true
 permalink: /:categories/:year/:title.html
